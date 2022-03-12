@@ -1,0 +1,7 @@
+<p> 
+    <form style="width: 35%;margin: auto;" action="." method="post">
+    {% csrf_token %}
+    {{pub.as_p}}
+    <input   style="margin-left: 68%; border: 1px solid blue;border: none; padding-top: 1%;padding-right: 1%;padding-bottom: 1%;padding-right: 5%;padding-left: 5%; background-color: rgb(11, 11, 61);color: wheat; margin-right: 5px;border-radius: 4px/4px;" type="submit" value="Poster" />
+    </form>
+</p>
